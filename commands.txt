@@ -1,0 +1,21 @@
+npm i prettier eslint-config-standard eslint-plugin-tailwindcss eslint-config-prettier eslint-plugin-prettier
+npm i -D prettier-plugin-tailwindcss
+
+{
+  "extends": [
+    "next/core-web-vitals",
+    "standard",
+    "plugin:tailwindcss/recommended",
+    "prettier"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["error"]
+  }
+}
+
+{
+  "plugins": ["prettier-plugin-tailwindcss"]
+}
+
+npm i tailwindcss-animate @tailwindcss/typography
