@@ -19,3 +19,4 @@ npm i -D prettier-plugin-tailwindcss
 }
 
 npm i tailwindcss-animate @tailwindcss/typography
+npm i @clerk/nextjs
