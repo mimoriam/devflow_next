@@ -20,3 +20,6 @@ npm i -D prettier-plugin-tailwindcss
 
 npm i tailwindcss-animate @tailwindcss/typography
 npm i @clerk/nextjs
+
+npx shadcn-ui@latest init
+npx shadcn-ui@latest add button menubar sheet
